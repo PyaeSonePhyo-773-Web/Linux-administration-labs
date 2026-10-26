@@ -1,0 +1,15 @@
+=== Linux User & Group Access Test ===
+Mon Oct 26 12:15:51 PM JST 2026
+
+--- Group Membership ---
+uid=1005(labuser1) gid=1008(labuser1) groups=1008(labuser1),1007(labdev)
+uid=1006(labuser2) gid=1009(labuser2) groups=1009(labuser2),1007(labdev)
+
+--- Shared Directory Permissions ---
+drwxrws--- 2 root labdev 4096 Oct 26 11:54 /srv/lab02/shared
+
+--- Shared File Permissions ---
+-rw-rw---- 1 labuser1 labdev 19 Oct 26 12:14 /srv/lab02/shared/project-notes.txt
+
+--- Shared File Content ---
+Shared access test

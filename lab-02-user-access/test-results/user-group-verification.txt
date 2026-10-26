@@ -1,0 +1,8 @@
+=== Developer group ===
+labdev:x:1007:labuser1,labuser2
+
+=== User 1 ===
+uid=1005(labuser1) gid=1008(labuser1) groups=1008(labuser1),1007(labdev)
+
+=== User 2 ===
+uid=1006(labuser2) gid=1009(labuser2) groups=1009(labuser2),1007(labdev)
