@@ -7,8 +7,8 @@ Cloud Infrastructure internship portfolio.
 
 | Lab | Topic | Status |
 |---|---|---|
-| 01 | File System and Permissions | In Progress |
-| 02 | User and Access Management | Planned |
+| 01 | File System and Permissions | Completed |
+| 02 | User and Access Management | Completed |
 | 03 | Process and Service Management | Planned |
 | 04 | System Monitoring | Planned |
 | 05 | Web Server Troubleshooting | Planned |
