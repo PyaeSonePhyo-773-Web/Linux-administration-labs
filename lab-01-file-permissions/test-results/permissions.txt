@@ -1,0 +1,1 @@
+-rwx------ 700 company-project/scripts/backup.sh

@@ -1,0 +1,1 @@
+bash: ./company-project/scripts/backup.sh: Permission denied
