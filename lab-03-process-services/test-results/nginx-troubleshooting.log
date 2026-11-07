@@ -1,0 +1,31 @@
+Oct 27 03:00:49 ubuntu nginx[12412]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 27 03:00:49 ubuntu nginx[12412]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 27 03:00:49 ubuntu nginx[12412]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 27 03:00:50 ubuntu nginx[12412]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 27 03:00:50 ubuntu nginx[12412]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 27 03:00:50 ubuntu nginx[12412]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 27 03:00:50 ubuntu nginx[12412]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 27 03:00:51 ubuntu nginx[12412]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 27 03:00:51 ubuntu nginx[12412]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 27 03:00:51 ubuntu nginx[12412]: nginx: [emerg] still could not bind()
+Oct 27 03:00:51 ubuntu systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Oct 27 03:00:51 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Oct 27 03:00:51 ubuntu systemd[1]: Failed to start nginx.service - A high performance web server and a reverse proxy server.
+-- Boot 7c88ab0b1c6a40809ca8a35d4143650f --
+Oct 29 02:08:09 ubuntu systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 29 02:08:09 ubuntu nginx[3303]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 29 02:08:09 ubuntu nginx[3303]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 29 02:08:10 ubuntu nginx[3303]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 29 02:08:10 ubuntu nginx[3303]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 29 02:08:10 ubuntu nginx[3303]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 29 02:08:10 ubuntu nginx[3303]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 29 02:08:11 ubuntu nginx[3303]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 29 02:08:11 ubuntu nginx[3303]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 29 02:08:11 ubuntu nginx[3303]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Oct 29 02:08:11 ubuntu nginx[3303]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Oct 29 02:08:12 ubuntu nginx[3303]: nginx: [emerg] still could not bind()
+Oct 29 02:08:12 ubuntu systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Oct 29 02:08:12 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Oct 29 02:08:12 ubuntu systemd[1]: Failed to start nginx.service - A high performance web server and a reverse proxy server.
+Oct 29 02:15:39 ubuntu systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 29 02:15:39 ubuntu systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.

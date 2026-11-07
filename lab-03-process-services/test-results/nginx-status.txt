@@ -1,0 +1,32 @@
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-29 02:15:39 JST; 10min ago
+ Invocation: a42f88c85e854a7eb150d1831a942492
+       Docs: man:nginx(8)
+    Process: 9131 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 9133 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 9134 (nginx)
+      Tasks: 17 (limit: 8011)
+     Memory: 13.2M (peak: 15.8M)
+        CPU: 40ms
+     CGroup: /system.slice/nginx.service
+             ├─9134 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─9135 "nginx: worker process"
+             ├─9136 "nginx: worker process"
+             ├─9137 "nginx: worker process"
+             ├─9138 "nginx: worker process"
+             ├─9139 "nginx: worker process"
+             ├─9140 "nginx: worker process"
+             ├─9142 "nginx: worker process"
+             ├─9143 "nginx: worker process"
+             ├─9144 "nginx: worker process"
+             ├─9145 "nginx: worker process"
+             ├─9146 "nginx: worker process"
+             ├─9147 "nginx: worker process"
+             ├─9148 "nginx: worker process"
+             ├─9149 "nginx: worker process"
+             ├─9150 "nginx: worker process"
+             └─9151 "nginx: worker process"
+
+Oct 29 02:15:39 ubuntu systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Oct 29 02:15:39 ubuntu systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.

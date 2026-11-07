@@ -1,0 +1,20 @@
+top - 02:28:15 up 20 min,  1 user,  load average: 0.20, 0.29, 0.25
+Tasks: 425 total,   1 running, 424 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  1.0 sy,  0.0 ni, 96.9 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   6724.3 total,    318.5 free,   3608.9 used,   3023.5 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   3115.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4014 pyae-so+  20   0 8573136 292088 173640 S  18.2   4.2   0:54.55 gnome-s+
+   5921 pyae-so+  20   0 1448.5g 505280 143088 S   9.1   7.3   1:39.46 ChatGPT
+   7894 pyae-so+  20   0 1635548 119520  94488 S   9.1   1.7   0:13.46 ptyxis
+  10749 pyae-so+  20   0   13380   5688   3612 R   9.1   0.1   0:00.02 top
+      1 root      20   0   26768  16360  10700 S   0.0   0.2   0:01.74 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
