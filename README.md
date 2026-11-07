@@ -9,7 +9,7 @@ Cloud Infrastructure internship portfolio.
 |---|---|---|
 | 01 | File System and Permissions | Completed |
 | 02 | User and Access Management | Completed |
-| 03 | Process and Service Management | Planned |
+| 03 | Process and Service Management | Completed |
 | 04 | System Monitoring | Planned |
 | 05 | Web Server Troubleshooting | Planned |
 
