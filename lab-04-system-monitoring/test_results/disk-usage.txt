@@ -1,0 +1,13 @@
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              1.4G  3.4M  1.4G   1% /run
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-cryptsetup@dm_crypt\x2d0.service
+/dev/mapper/ubuntu--vg-ubuntu--lv  466G   20G  423G   5% /
+tmpfs                              3.3G     0  3.3G   0% /dev/shm
+efivarfs                           192K  118K   70K  63% /sys/firmware/efi/efivars
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none                               1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p2                     2.0G  215M  1.6G  12% /boot
+tmpfs                              3.3G   67M  3.3G   2% /tmp
+/dev/nvme0n1p1                     1.1G  6.4M  1.1G   1% /boot/efi
+none                               1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                              673M  140K  673M   1% /run/user/1000
