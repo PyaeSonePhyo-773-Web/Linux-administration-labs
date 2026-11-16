@@ -1,0 +1,9 @@
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ ls -l /mnt/lab-storage/
+total 16
+drwx------ 2 root root 16384 Nov 16 12:17 lost+found
+-rw-r--r-- 1 root root     0 Nov 16 12:19 test-file.txt
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo umount /mnt/lab-storage 
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ ls -l /mnt/lab-storage/
+total 0
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo losetup -d /dev/loop20
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo losetup -j disk.img

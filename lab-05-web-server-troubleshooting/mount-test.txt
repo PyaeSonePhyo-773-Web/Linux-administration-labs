@@ -1,0 +1,32 @@
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting$ mkdir -p lab-storage-test
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting$ cd lab-storage-test/
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo truncate -s 100M disk.img
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ ls -lh disk.img 
+-rw-r--r-- 1 root root 100M Nov 16 12:13 disk.img
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo lostup-fP disk.img
+sudo: 'lostup-fP': command not found
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo losetup -fP disk.img
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo losetup -j disk.img
+/dev/loop20: [64513]:20185389 (/home/pyae-sone/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test/disk.img)
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo mkfs.ext4 /dev/loop20
+mke2fs 1.47.2 (1-Jan-2025)
+Discarding device blocks: done                            
+Creating filesystem with 25600 4k blocks and 25600 inodes
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (1024 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo mount /dev/loop20 /mnt/lab-storage
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ findmnt /mnt/lab-storage 
+TARGET           SOURCE      FSTYPE OPTIONS
+/mnt/lab-storage /dev/loop20 ext4   rw,relatime
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ df -hT /mnt/lab-storage/
+Filesystem     Type  Size  Used Avail Use% Mounted on
+/dev/loop20    ext4   90M  152K   83M   1% /mnt/lab-storage
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ sudo touch /mnt/lab-storage/test-file.txt
+pyae-sone@ubuntu:~/projects/linux-administration-labs/lab-05-web-server-troubleshooting/lab-storage-test$ ls -l /mnt/lab-storage/
+total 16
+drwx------ 2 root root 16384 Nov 16 12:17 lost+found
+-rw-r--r-- 1 root root     0 Nov 16 12:19 test-file.txt

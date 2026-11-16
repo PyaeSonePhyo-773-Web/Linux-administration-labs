@@ -1,0 +1,14 @@
+pyae-sone@ubuntu:~$ df -ih
+Filesystem                        Inodes IUsed IFree IUse% Mounted on
+tmpfs                               800K  1.6K  799K    1% /run
+none                                1.0K     1  1023    1% /run/credentials/systemd-cryptsetup@dm_crypt\x2d0.service
+/dev/mapper/ubuntu--vg-ubuntu--lv    30M  351K   30M    2% /
+tmpfs                               841K     1  841K    1% /dev/shm
+efivarfs                               0     0     0     - /sys/firmware/efi/efivars
+none                                1.0K     1  1023    1% /run/credentials/systemd-journald.service
+none                                1.0K     1  1023    1% /run/credentials/systemd-resolved.service
+/dev/nvme0n1p2                      128K   348  128K    1% /boot
+tmpfs                               1.0M   598  1.0M    1% /tmp
+/dev/nvme0n1p1                         0     0     0     - /boot/efi
+none                                1.0K     1  1023    1% /run/credentials/getty@tty1.service
+tmpfs                               169K   187  168K    1% /run/user/1000

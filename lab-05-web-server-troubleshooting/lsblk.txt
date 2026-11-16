@@ -1,0 +1,30 @@
+pyae-sone@ubuntu:~$ lsblk -f
+NAME         FSTYPE    FSVER    LABEL UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+loop0        squashfs  4.0                                                         0   100% /snap/asciiquarium/59
+loop1        squashfs  4.0                                                         0   100% /snap/bare/5
+loop2        squashfs  4.0                                                         0   100% /snap/core22/2987
+loop3        squashfs  4.0                                                         0   100% /snap/core24/1643
+loop4        squashfs  4.0                                                         0   100% /snap/desktop-security-center/151
+loop5        squashfs  4.0                                                         0   100% /snap/desktop-security-center/206
+loop6        squashfs  4.0                                                         0   100% /snap/firefox/8763
+loop7        squashfs  4.0                                                         0   100% /snap/firefox/8863
+loop8        squashfs  4.0                                                         0   100% /snap/firmware-updater/226
+loop9        squashfs  4.0                                                         0   100% /snap/gnome-46-2404/164
+loop10       squashfs  4.0                                                         0   100% /snap/hwctl/131
+loop11       squashfs  4.0                                                         0   100% /snap/gtk-common-themes/1535
+loop12       squashfs  4.0                                                         0   100% /snap/hwctl/123
+loop13       squashfs  4.0                                                         0   100% /snap/mesa-2404/1839
+loop14       squashfs  4.0                                                         0   100% /snap/prompting-client/222
+loop15       squashfs  4.0                                                         0   100% /snap/prompting-client/228
+loop16       squashfs  4.0                                                         0   100% /snap/snap-store/1390
+loop17       squashfs  4.0                                                         0   100% /snap/snapd/27738
+loop18       squashfs  4.0                                                         0   100% /snap/snapd/28254
+loop19       squashfs  4.0                                                         0   100% /snap/snapd-desktop-integration/391
+nvme0n1                                                                                     
+├─nvme0n1p1  vfat      FAT32          9E22-D7B5                                   1G     1% /boot/efi
+├─nvme0n1p2  ext4      1.0            0173c214-0fe1-46c4-acc8-dc99ae261c64      1.6G    11% /boot
+└─nvme0n1p3  crypto_LU 2              157b6a1a-3c24-4d6c-9a55-a152cc267e92                  
+  └─dm_crypt-0
+    │        LVM2_memb LVM2 001       Relzxe-5Wdr-DxZJ-NM6f-ViJJ-R05I-pvERdq                
+    └─ubuntu--vg-ubuntu--lv
+             ext4      1.0            edb72e68-e958-4a2f-9afa-d1afff9336e1    422.4G     4% /
